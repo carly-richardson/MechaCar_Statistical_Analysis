@@ -18,12 +18,12 @@
 ## T-Tests on Suspension Coils
   - The PSI across all manufacturing lots is statistically similar to the population mean of 1,500 pounds per square inch. The p-value is 0.06 which is above the significance level of 0.05.
 
-<img width="540" alt="Screen Shot 2022-06-25 at 2 42 38 PM" src="https://user-images.githubusercontent.com/100643519/175788616-2a8274ce-b6b5-429b-8704-94282c428d1a.png">
+       <img width="540" alt="Screen Shot 2022-06-25 at 2 42 38 PM" src="https://user-images.githubusercontent.com/100643519/175788616-2a8274ce-b6b5-429b-8704-94282c428d1a.png">
 
   - If you analyze the manufacturing lots individually, the PSI for Lot 3 is statistically different from the population mean of 1,500 pounds per square inch. The p-value of Lot 3 is 0.04. Therefore at Lot 3, there is sufficient evidence to reject the null hypothesis.
   - The PSI for Lots 1 and 2 is not statistically different from the population mean. The p-value for Lot 1 is 1 and the p-value for Lot 2 is 0.61.
 
-<img width="511" alt="Screen Shot 2022-06-25 at 3 04 39 PM" src="https://user-images.githubusercontent.com/100643519/175789014-66dc4225-d762-4111-a05c-9ddf65e658f6.png">
+      <img width="511" alt="Screen Shot 2022-06-25 at 3 04 39 PM" src="https://user-images.githubusercontent.com/100643519/175789014-66dc4225-d762-4111-a05c-9ddf65e658f6.png">
 
 ## Study Design: MechaCar vs. Competition
-
+To compare the performance of the MechaCar vehicles against the performance of vehicles from other manufacturers, I would design a study to compare the initial cost of the MechaCar plus the cost of routine maintenance over time to the same metrics of other comparable vehicles. My alternative hypothesis would be, "If the cost of the MechaCar plus the cost of the required routine maintenance over the first five years is less than the same metrics in other comparable vehicles, then the MechaCar is a better value." I would use the two-sample t-Test to test my hypothesis, because I would be using two samples of data, one set for the MechaCar and one set for vehicles from other manufacturers. To perform this statistical test, I would need data that included the cost of the vehicles, the cost of routine maintenance items (E.g. oil change, break pads, rotors, shocks and struts, batteries, belts, hoses, spark plugs), and the frequency at which each maintenance item needs to be performed.
